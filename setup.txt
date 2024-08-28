@@ -1,0 +1,6 @@
+dotnet new worker -n ServiceBusWorkerService
+cd ServiceBusWorkerService
+
+dotnet add package Azure.Messaging.ServiceBus
+dotnet add package Microsoft.Extensions.Hosting.WindowsServices
+
